@@ -15,3 +15,6 @@ A sample application with ASP .Net core MVC Web application.
 # Add logics to split the number to beforedecimal and after decimal values
 # Add common logic to convert the numbet to words
 # Combine the words and display.
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/84b93723-743f-47f1-9f79-8dc3c4976eab">
+
