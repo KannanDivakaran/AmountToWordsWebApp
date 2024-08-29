@@ -18,3 +18,16 @@ A sample application with ASP .Net core MVC Web application.
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/84b93723-743f-47f1-9f79-8dc3c4976eab">
 
+# Why the framework this approach is selected.
+A main advantage of MVC is its separation of concern. The separation of concern means we can divide the application Model, Control and View.
+We can easily maintain our application because of separation of this.
+In the same time we can split many developers work at a time. It  will not affects  one developer work to another developer work. 
+It supports TTD (test-driven development). We can create an application with unit test. We can write won test case.
+Latest version of MVC Support default responsive web site and mobile templates.
+We can create own view engine. It is syntax is very easy compare to traditional view engine.
+
+# If other framework like angular or React is slected then 
+1. We have to integrate two independent applications for Web UI and the C# service.That will be complex in this particular case.
+2.Then we need inetgration with a server and deploy the service and then consume the service from front end web application.
+3.Code maintenance, testing and deployemnts are super easy with ASP.NET MVC frame work.
+ 
