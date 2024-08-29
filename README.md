@@ -31,3 +31,25 @@ We can create own view engine. It is syntax is very easy compare to traditional 
 2.Then we need inetgration with a server and deploy the service and then consume the service from front end web application.
 3.Code maintenance, testing and deployemnts are super easy with ASP.NET MVC frame work.
  
+#Test Plan
+1. Execute Amount between < 10.
+   Expected outcome :Input: "10.23"
+                     Output: "TEN DOLLARS and TWENTY-THREE CENTS"
+3. Excute Amount between 10 -99
+    Expected outcome : Input: "55.55"
+                       Output: "FIFTY-FIVE DOLLARS and FIFTY-FIVE CENTS"
+4. Excute Amount > 100
+   Expected outcome :Input: "123.45"
+                     Output: "ONE HUNDRED TWENTY-THREE DOLLARS and FORTY-FIVE CENTS"
+5. A spacial case of Negative also can be tested
+   Expected outcome : Input: "-23"
+                     Output: "NEGATIVE TWENTY-THREE DOLLARS and ZERO CENTS"
+6.An Amount without decimal
+ Expected outcome :Input: "23"
+                   Output: "TWENTY-THREE DOLLARS and ZERO CENTS"
+7.A number with decimal only.
+Expected outcome :Input: "0.45"
+                  Output: "ZERO DOLLARS and FORTY-FIVE CENTS"
+8. Aount 0 and all other inputs will return below output
+ Expected outcome:  Input: "0"
+                   Output: "ZERO DOLLARS and ZERO CENTS"
