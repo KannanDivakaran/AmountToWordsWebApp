@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Amount to Words Page";
+}
+
+<h1>Welcome to amount to words app</h1>
+
+<form asp-controller="Home" asp-action="convert" method="post">
+
+    <span>Amount : </span> <input id="Text1" type="text" name="txtFirst" /> <br /><br />
+    <input id="Submit1" type="submit" value="Convert" />
+</form>
+
+<h2>@ViewBag.WordInput</h2>
+<h2>@ViewBag.WordResult</h2>
