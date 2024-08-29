@@ -9,6 +9,9 @@ A sample application with ASP .Net core MVC Web application.
 4. Add numer to words controller functions in HomeController.cs
 
 # Capture the input from Web page.
+
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/d00f1ca1-9c1e-45e4-a25e-5e0eb06a1465">
+
 # Add logics to split the number to beforedecimal and after decimal values
 # Add common logic to convert the numbet to words
 # Combine the words and display.
